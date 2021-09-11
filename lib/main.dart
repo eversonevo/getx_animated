@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation/home.dart';
 import 'package:flutter_animation/home2.dart';
 
 void main() {

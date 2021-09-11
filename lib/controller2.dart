@@ -35,6 +35,19 @@ class ControllerHome2 extends GetxController {
   set width2(value) => this._width2.value = value;
   get width2 => this._width2.value;
 
+
+  RxDouble _width3 = 140.0.obs;
+  set width3(value) => this._width3.value = value;
+  get width3 => this._width3.value;
+
+  RxString _texto = "Botão".obs;
+  set texto(value) => this._texto.value = value;
+  get texto => this._texto.value;
+
+  Rx<IconData> _icone = Icons.alarm.obs;
+  set icone(value) => this._icone.value = value;
+  get icone => this._icone.value;
+
   RxInt i = 0.obs;
 
   Rx<Color> _color = Color(0xff123456).obs;
